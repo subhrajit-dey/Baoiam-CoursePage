@@ -338,3 +338,51 @@
     height: 250px;
     width: 240px;
 }
+
+
+/* Section - Reviews */
+
+.reviews{
+    margin-bottom: 45px;
+}
+
+.reviews_heading{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+.reviews_content{
+    /* border: 3px solid blue; */
+    width: 820px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.reviews_card{
+    border-top: 2px solid red;
+    height: 150px;
+    width: 370px;
+}
+
+.reviews_card_heading{
+    margin: 10px 20px 15px 20px;
+}
+
+.reviews_card_heading h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+.reviews_card_heading h5{
+    font-size: 15px;
+    text-align: center;
+}
+
+.reviews_card_content{
+    font-size: 17px;
+    margin: 10px 10px;
+}
