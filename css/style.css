@@ -129,26 +129,19 @@
 /* Section - Course Contents Menu */
 
 .course_menu_topic{
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 10px 0px;
     font-size: 30px;
 }
 
 
 .menu{
     width: 765px;
-    height: 1000px;
+    height: auto;
     border: 2px solid blue;
-    margin-bottom: 100px;
+    margin-bottom: 45px;
 }
 
-/* Collapsible CSS */
-
-/* 
-.wrapper{
-    display: flex;
-    padding-top: 50px;
-    justify-content: center;
-} */
+/* Inside Course Contents Menu - Collapsible CSS */
 
 .collapsible{
     max-width: 765px;
@@ -180,7 +173,8 @@
     top: 15px;
     width: 18px;
     height: 18px;
-    background: red;
+    background: url('../images/drop_down_icon.png');
+    background-size: contain;
     transition: all 0.4s ease;
 }
 
@@ -223,4 +217,124 @@
 
 .collapsible-text ul{
     margin-top: 15px;
+}
+
+
+/* Section- Requirements and Course Description */
+
+/* Requirements */
+
+.requirements{
+    /* border: 3px solid green; */
+    margin-bottom: 45px;
+    width: 760px;
+    
+}
+
+.requirements_heading {
+    font-size: 30px;
+    /* margin-bottom: 20px; */
+}
+
+
+.requirements_content_list{
+    list-style: disc;
+    margin-bottom: 30px;
+}
+
+.requirements_content_list li{
+    margin: 7px 25px;
+}
+
+/* Description */
+
+.description, .instructor, .explore{
+    /* border: 3px solid blue; */
+    margin-bottom: 45px;
+    width: 760px;
+}
+
+
+.description_heading, .instructor_heading, .explore_heading{
+    font-size: 30px;
+    margin-bottom: 11px;
+}
+
+/* Inside Decscription - Who is This Course For */
+
+.who_is_this_for_heading{
+    margin-top: 45px;
+    margin-bottom: 11px;
+    font-size: 30px;
+}
+
+.who_is_this_for_contents_list{
+    list-style: disc;
+}
+
+
+.who_is_this_for_contents_list li{
+    margin: 7px 25px;
+}
+
+/* Inside Description - Show More and Show Less  */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section - Instructor */
+
+/* Note - The CSS of .instructor_heading have been merged with .description_heading to avoid redundancy */
+/* Note - The CSS of .instructor have been merged with .description to avoid redundancy */
+.instructor_card{
+    /* border: 2px solid blue; */
+    display: flex;
+    margin: 20px 10px;
+}
+
+.instructor_rating ul{
+    list-style: none;
+}
+
+.instructor_rating ul li{
+    font-weight: bold;
+    line-height: 33px;
+    margin: 0px 30px;
+}
+
+.instructor_image img{
+    width: 100px;
+    height: 100px;
+}
+
+
+/* Section - Explore */
+/* Note - The CSS of .explore_heading have been merged with .description_heading to avoid redundancy */
+
+.explore{
+    /* border: 3px solid blue; */
+    margin-bottom: 45px;
+    width: 800px;
+}
+
+.explore_box{
+    /* border: 3px solid blue; */
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.explore_cards{
+    border: 3px solid green;
+    height: 250px;
+    width: 240px;
 }
