@@ -436,4 +436,21 @@
 }
 
 
-/* Card of Other Courses */
+/* Card of Explore our Other Courses */
+
+.explore_card_text{
+    text-align: center;
+}
+
+.explore_card_text>p{
+    margin: 7px 0px
+}
+
+.explore_card_text>h5{
+    font-size: 17px;
+}
+
+.explore_cards>img{
+    width: 240px;
+    height: 125px;
+}
