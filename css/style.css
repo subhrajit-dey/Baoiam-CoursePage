@@ -22,7 +22,7 @@
 
 .card{
     /* height: 700px; */
-    width: 350px;
+    width: 320px;
     border: 2px solid pink;
     float: right;
     position:sticky;
@@ -280,12 +280,9 @@
 /* Inside Description - Show More and Show Less  */
 
 
-
-
-
-
-
-
+.show_more_text{
+    display: none;
+}
 
 
 
@@ -386,3 +383,57 @@
     font-size: 17px;
     margin: 10px 10px;
 }
+
+
+/* Section - Card */
+
+.card_text{
+    margin: 5px 25px;
+}
+
+.card_text > h1{
+    font-size: 40px;
+}
+
+.card_text>h4{
+    font-size: 18px;
+    margin: 17px 0px;
+}
+
+.card_text>ul{
+    font-size: 15px;
+    list-style: none;
+}
+
+.card_text>ul>li{
+    margin: 14px 10px;
+}
+
+.card_text>p{
+    margin: 15px 0px 0px 0px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.buy_now, .add_to_cart{
+    margin: 5px 0px;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.add_to_cart{
+    background-color: orange;
+    margin: 15px 0px 0px 0px;
+}
+
+.card_image{
+    width: 320px;
+    height: 209px;
+    cursor: pointer;
+}
+
+
+/* Card of Other Courses */
