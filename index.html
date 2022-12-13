@@ -5,10 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style> @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Encode+Sans:wght@600&family=Ubuntu:wght@700&display=swap'); </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Encode+Sans:wght@600&family=Ubuntu:wght@700&display=swap');
+    </style>
     <link rel="stylesheet" href="./css/style.css">
     <title>Baoiam Technologies Pvt. Ltd.</title>
 </head>
+
 <body>
     <div class="card">
         <img src="./images/video_thumbnail.jpg" alt="" class="card_image">
@@ -30,13 +33,14 @@
 
     </div>
     <header>
-        <div class="header_section">
+        <!-- <div class="header_section sticky"> -->
+        <!--here sticky--><div class="header_section header_selector">
             <div class="course_header">
-                <div class="heading">Javascript for Beginners</div>
-                <div class="tagline">Learn javascript online and supercharge your web design with this Javascript for beginners training course to boost up your skills.</div>
-                <div class="rating description_content">4.3 <img src="./images/Star_rating_4.5_of_5.png" alt="" srcset="" class="header_star_image"> (1346 ratings)</div>
-                <div class="created_by description_heading_content">Created by Dollar Design School</div>
-                <div class="description">
+                <!--here sticky_heading--> <div class="heading heading_selector">Javascript for Beginners</div>
+                <!--here sticky_tagline--><div class="tagline tagline_selector">Learn javascript online and supercharge your web design with this Javascript for beginners training course to boost up your skills.</div>
+                <!--here sticky_rating--><div class="rating description_content rating_selector">4.3 <img src="./images/Star_rating_4.5_of_5.png" alt="" srcset="" class="header_star_image"> (1346 ratings)</div>
+                <!--here sticky_created_by--><div class="created_by description_heading_content created_by_selector">Created by Dollar Design School</div>
+                <!--here sticky_description--><div class="description description_selector">
                     <div class="last_updated description_heading_content"><img src="./images/calender_icon.png" alt="calender" class="icon_image">Last Updated 4/2022</div>
                     <div class="language description_heading_content"><img src="./images/audio_icon.png" alt="audio" class="icon_image">English</div>
                     <div class="subtitles description_heading_content"><img src="./images/subtitles_icon.png" alt="subtitles" class="icon_image">English[Auto]</div>
@@ -83,10 +87,10 @@
                             <label for="collapsible-head-1"><img src="./images/video_icon1.png" alt="video_icon1" class="collapsible_image">Lorem ipsum dolor sit amet. Lorem, ipsum. <span class="timing_main">4 lectures &#8729; 20 mins</span></label>
                             <div class="collapsible-text">
                                 <ul>
-                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem?</li>
-                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus.</li>
-                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.</li>
-                                    <li><img src="./images/lab_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.</li>
+                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem? <span class="timing_collapsible">6 exercise</span></li>
+                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus. <span class="timing_collapsible">5 pages</span></li>
+                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">10:30</span></li>
+                                    <li><img src="./images/lab_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">1 task</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -98,9 +102,10 @@
                             <label for="collapsible-head-2"><img src="./images/video_icon1.png" alt="" class="collapsible_image">Lorem ipsum dolor sit amet. <span class="timing_main">3 lectures &#8729; 45 mins</span></label>
                             <div class="collapsible-text">
                                 <ul>
-                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem?</li>
-                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus.</li>
-                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.</li>
+                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem? <span class="timing_collapsible">6 exercise</span></li>
+                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus. <span class="timing_collapsible">5 pages</span></li>
+                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">10:30</span></li>
+                                    <li><img src="./images/lab_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">1 task</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -112,9 +117,10 @@
                             <label for="collapsible-head-3"><img src="./images/video_icon1.png" alt="" class="collapsible_image">Lorem ipsum dolor sit amet. Lorem.<span class="timing_main">4 lectures &#8729; 20 mins</span></label>
                             <div class="collapsible-text">
                                 <ul>
-                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem?</li>
-                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus.</li>
-                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.</li>
+                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem? <span class="timing_collapsible">6 exercise</span></li>
+                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus. <span class="timing_collapsible">5 pages</span></li>
+                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">10:30</span></li>
+                                    <li><img src="./images/lab_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">1 task</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -126,9 +132,10 @@
                             <label for="collapsible-head-4"><img src="./images/video_icon1.png" alt="" class="collapsible_image">Lorem ipsum dolor sit amet. Lorem, ipsum dolor.<span class="timing_main">4 lectures &#8729; 20 mins</span></label>
                             <div class="collapsible-text">
                                 <ul>
-                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem?</li>
-                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus.</li>
-                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.</li>
+                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem? <span class="timing_collapsible">6 exercise</span></li>
+                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus. <span class="timing_collapsible">5 pages</span></li>
+                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">10:30</span></li>
+                                    <li><img src="./images/lab_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">1 task</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -140,9 +147,10 @@
                             <label for="collapsible-head-5"><img src="./images/video_icon1.png" alt="" class="collapsible_image">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit.<span class="timing_main">4 lectures &#8729; 20 mins</span></label>
                             <div class="collapsible-text">
                                 <ul>
-                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem?</li>
-                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus.</li>
-                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.</li>
+                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem? <span class="timing_collapsible">6 exercise</span></li>
+                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus. <span class="timing_collapsible">5 pages</span></li>
+                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">10:30</span></li>
+                                    <li><img src="./images/lab_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">1 task</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -154,9 +162,10 @@
                             <label for="collapsible-head-6"><img src="./images/video_icon1.png" alt="" class="collapsible_image">Lorem ipsum dolor sit amet. Lorem, ipsum dolor.<span class="timing_main">4 lectures &#8729; 20 mins</span></label>
                             <div class="collapsible-text">
                                 <ul>
-                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem?</li>
-                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus.</li>
-                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.</li>
+                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem? <span class="timing_collapsible">6 exercise</span></li>
+                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus. <span class="timing_collapsible">5 pages</span></li>
+                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">10:30</span></li>
+                                    <li><img src="./images/lab_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">1 task</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -168,9 +177,10 @@
                             <label for="collapsible-head-7"><img src="./images/video_icon1.png" alt="" class="collapsible_image">Lorem ipsum dolor sit amet. lorem<span class="timing_main">4 lectures &#8729; 20 mins</span></label>
                             <div class="collapsible-text">
                                 <ul>
-                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem?</li>
-                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus.</li>
-                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.</li>
+                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem? <span class="timing_collapsible">6 exercise</span></li>
+                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus. <span class="timing_collapsible">5 pages</span></li>
+                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">10:30</span></li>
+                                    <li><img src="./images/lab_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">1 task</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -182,9 +192,10 @@
                             <label for="collapsible-head-8"><img src="./images/video_icon1.png" alt="" class="collapsible_image">Lorem ipsum dolor sit amet.<span class="timing_main">4 lectures &#8729; 20 mins</span></label>
                             <div class="collapsible-text">
                                 <ul>
-                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem?</li>
-                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus.</li>
-                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.</li>
+                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem? <span class="timing_collapsible">6 exercise</span></li>
+                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus. <span class="timing_collapsible">5 pages</span></li>
+                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">10:30</span></li>
+                                    <li><img src="./images/lab_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">1 task</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -196,9 +207,10 @@
                             <label for="collapsible-head-9"><img src="./images/video_icon1.png" alt="" class="collapsible_image">Lorem ipsum dolor sit amet. Lorem, ipsum dolor.<span class="timing_main">4 lectures &#8729; 20 mins</span></label>
                             <div class="collapsible-text">
                                 <ul>
-                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem?</li>
-                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus.</li>
-                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.</li>
+                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem? <span class="timing_collapsible">6 exercise</span></li>
+                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus. <span class="timing_collapsible">5 pages</span></li>
+                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">10:30</span></li>
+                                    <li><img src="./images/lab_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">1 task</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -210,9 +222,10 @@
                             <label for="collapsible-head-10"><img src="./images/video_icon1.png" alt="" class="collapsible_image">Lorem ipsum dolor sit amet.<span class="timing_main">4 lectures &#8729; 20 mins</span></label>
                             <div class="collapsible-text">
                                 <ul>
-                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem?</li>
-                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus.</li>
-                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.</li>
+                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem? <span class="timing_collapsible">6 exercise</span></li>
+                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus. <span class="timing_collapsible">5 pages</span></li>
+                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">10:30</span></li>
+                                    <li><img src="./images/lab_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">1 task</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -224,9 +237,10 @@
                             <label for="collapsible-head-11"><img src="./images/video_icon1.png" alt="" class="collapsible_image">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.<span class="timing_main">3 lectures &#8729; 45 mins</span></label>
                             <div class="collapsible-text">
                                 <ul>
-                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem?</li>
-                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus.</li>
-                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.</li>
+                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem? <span class="timing_collapsible">6 exercise</span></li>
+                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus. <span class="timing_collapsible">5 pages</span></li>
+                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">10:30</span></li>
+                                    <li><img src="./images/lab_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">1 task</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -238,9 +252,10 @@
                             <label for="collapsible-head-12"><img src="./images/video_icon1.png" alt="" class="collapsible_image">Lorem ipsum dolor sit amet.<span class="timing_main">3 lectures &#8729; 45 mins</span></label>
                             <div class="collapsible-text">
                                 <ul>
-                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem?</li>
-                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus.</li>
-                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.</li>
+                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem? <span class="timing_collapsible">6 exercise</span></li>
+                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus. <span class="timing_collapsible">5 pages</span></li>
+                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">10:30</span></li>
+                                    <li><img src="./images/lab_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">1 task</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -252,9 +267,10 @@
                             <label for="collapsible-head-13"><img src="./images/video_icon1.png" alt="" class="collapsible_image">Lorem ipsum dolor sit amet.<span class="timing_main">4 lectures &#8729; 20 mins</span></label>
                             <div class="collapsible-text">
                                 <ul>
-                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem?</li>
-                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus.</li>
-                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.</li>
+                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem? <span class="timing_collapsible">6 exercise</span></li>
+                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus. <span class="timing_collapsible">5 pages</span></li>
+                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">10:30</span></li>
+                                    <li><img src="./images/lab_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">1 task</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -266,9 +282,10 @@
                             <label for="collapsible-head-14"><img src="./images/video_icon1.png" alt="" class="collapsible_image">Lorem ipsum dolor sit amet.<span class="timing_main">4 lectures &#8729; 20 mins</span></label>
                             <div class="collapsible-text">
                                 <ul>
-                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem?</li>
-                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus.</li>
-                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.</li>
+                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem? <span class="timing_collapsible">6 exercise</span></li>
+                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus. <span class="timing_collapsible">5 pages</span></li>
+                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">10:30</span></li>
+                                    <li><img src="./images/lab_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">1 task</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -280,9 +297,10 @@
                             <label for="collapsible-head-15"><img src="./images/video_icon1.png" alt="" class="collapsible_image">Lorem ipsum dolor sit amet.<span class="timing_main">4 lectures &#8729; 20 mins</span></label>
                             <div class="collapsible-text">
                                 <ul>
-                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem?</li>
-                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus.</li>
-                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.</li>
+                                    <li><img src="./images/code_icon.png" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptatem? <span class="timing_collapsible">6 exercise</span></li>
+                                    <li><img src="./images/text_icon.png" alt="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, temporibus. <span class="timing_collapsible">5 pages</span></li>
+                                    <li><img src="./images/play_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">10:30</span></li>
+                                    <li><img src="./images/lab_icon.png" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, similique.<span class="timing_collapsible">1 task</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -310,7 +328,8 @@
                 <div class="description_content">
                     Take this Javascript training course and start learning Javascript today. "As a business guy I have no place in programming." Ten years ago you could have gotten away with that statement. Today you say that to your colleagues and they scoff at you before
                     they go back to their computers to fix real problems and do real work. If you want to do something useful start by learning Javascript . In these days when the browser is central to all computer use knowing "the language of the browser"
-                    is the most important step. A few years ago Javascript potential was uncertain and many programmers considered it useless Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa tempora, ratione voluptates temporibus magni ullam accusantium. Rem neque error et. Lorem ipsum dolor sit, amet consecte
+                    is the most important step. A few years ago Javascript potential was uncertain and many programmers considered it useless Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa tempora, ratione voluptates temporibus magni ullam
+                    accusantium. Rem neque error et. Lorem ipsum dolor sit, amet consecte
                     <!-- These are the Three Points -->
                     <span class="points">...</span>
 
