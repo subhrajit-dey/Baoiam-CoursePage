@@ -1,0 +1,427 @@
+
+/* Separating and Making the Margins Proper */
+
+.body_right{
+    /* display: none; */
+    border: 0.5px solid blue;
+    height: 65px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    /* order: 2; */
+}
+
+.body_left{
+    /* border: 5px solid brown; */
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    /* padding-top: 41vh; */
+    margin: 0;
+    margin-right: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+
+.body_entire{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.section_body{
+    /* border: 2px solid red; */
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: auto;
+}
+
+.explore{
+    /* border: 2px solid blue; */
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: auto;
+}
+
+.contents{
+    /* border: 2px solid blue; */
+    margin: 0px 0px 20px 0px;
+    width: auto;
+}
+
+.recommendations{
+    /* border: 2px solid blue; */
+    margin: 0px 0px 0px 0px;
+    width: auto;
+}
+
+.contents_menu{
+    /* border: 2px solid blue; */
+    margin: 0px 0px 0px 0px;
+    width: auto;
+}
+
+.menu{
+    /* background-color: rebeccapurple; */
+    /* border: 2px solid blue; */
+    margin: 0px 0px 0px 0px;
+    width: auto;
+}
+
+.requirements{
+    /* border: 2px solid blue; */
+    margin: 0px 0px 0px 0px;
+    width: auto;
+}
+
+.description{
+    /* border: 2px solid blue; */
+    margin: 0px 0px 0px 0px;
+    width: auto;
+}
+
+.show_more_text{
+    /* border: 2px solid blue; */
+    margin: 0px 0px 0px 0px;
+    width: auto;
+}
+
+.instructor{
+    /* border: 2px solid blue; */
+    margin: 0px 0px 0px 0px;
+    width: auto;
+}
+
+.reviews{
+    /* border: 2px solid blue; */
+    margin: 0px 0px 0px 0px;
+    width: auto;
+}
+
+section{
+    margin: 10px 30px 20px 30px;
+}
+
+/* Header Section */
+
+
+/* Topic */
+
+header{
+    height: 1000px;
+    /* border: 10px solid gray; */
+}
+
+.header_section{
+    /* float: inherit; */
+    /* position: fixed; */
+    /* float: initial; */
+    /* position: sticky; */
+    position: static;
+    display: block;    
+    height: auto;
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    margin: 0px 0px 50px 0px;
+    /* border: 5px solid green; */
+    /* transition: all 0.6s ease-in; */
+}
+
+
+
+.header_star_image{
+    width: 52px;
+    height: 12px;
+    opacity: 1.5;
+    filter: brightness(3);
+    position: relative;
+    top: 2px;
+}
+
+.heading{
+    width: 100%;
+    font-size: 31px;
+    line-height: 40px;
+    margin: 10px 0px;
+    /* border: 10px solid red; */
+    text-align: center;
+}
+
+.tagline{
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+}
+
+
+
+
+.description_header{
+    width: 100%;
+    /* border: 3px solid purple; */
+    margin-bottom: 7px;
+}
+
+.description_heading_content{
+    text-align: center;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+
+
+/* Header Section on Scrolling */
+
+.header_selector{
+    transition: all 0.5s ease-out;
+}
+
+/* header{
+    border: 2px solid green;
+    height: 100vh;
+    padding: 0px 0px;
+} */
+
+.sticky{
+    position:sticky;
+    display:block;
+    /* display: inline-block; */
+    top: 0px;
+    /* border: 2px solid lawngreen; */
+    margin: 0px;
+    box-sizing:border-box;
+    color: white;
+    height: 80px;
+    width: 100%;
+    transition: all 0.5s ease-out;
+    /* border: 2px solid blue;
+    margin: 0px 0px; */
+    /* box-sizing: border-box; */
+    /* padding: 0px 0px; */
+    /* border: 2px solid blue; */
+    /* background-color: rgba(253, 89, 13, 0.868); */
+    /* background-image: linear-gradient(to bottom right, orange, orangered); */
+    z-index: 1000;
+}
+
+.card{
+    display: block;
+}
+
+.sticky_created_by{
+    display: none;
+}
+
+.sticky_heading{
+    display: inline-block;
+    width:100%;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.sticky_rating{
+    font-size: 14px;
+}
+
+.sticky_rating>img{
+    width: 64px;
+    height: 16px;
+}
+
+.sticky_description{
+    display: none;
+}
+
+
+/* Card */
+.card{
+    display: none;
+}
+
+
+/* Body Section */
+
+
+/* What you'll learn */
+
+.contents{
+    height: auto;
+    box-sizing: border-box;
+}
+
+.contents_topic{
+    font-size: 25px;
+}
+
+.content_points{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content_points_li{
+    font-size: 15px;
+    line-height: 15px;
+    margin: 10px 10px;
+}
+
+
+/* Recommended By ... */
+
+.recommendations_topic{
+    font-size: 25px;
+}
+
+/* Course Content */
+.course_menu_topic{
+    font-size: 25px
+}
+
+.collapsible>label{
+    font-size: 15px;
+}
+
+.collapsible>label>span{
+    display: none;
+}
+
+.collapsible-text>ul>li{
+    /* border: 1px solid blue; */
+    font-size: 14px;
+}
+
+.collapsible-text>ul>li>span{
+    display: none;
+}
+
+
+/* Requirements */
+.requirements_heading{
+    font-size: 25px;
+}
+
+.requirements_content_list{
+    font-size: 14.5px;
+}
+
+/* Description */
+.description_heading{
+    font-size: 25px;
+}
+
+.description_content{
+    font-size: 14.5px;
+    line-height: 19px;
+}
+
+/* Who is this Course For : */
+
+.who_is_this_for_heading{
+    font-size: 25px;
+}
+
+.who_is_this_for_contents_list{
+    font-size: 14.5px;
+    margin: 5px 0px;
+    line-height: 18px;
+}
+
+.show_more_text{
+    margin-bottom: 40px;
+}
+
+/* Instructor */
+.instructor_heading{
+    font-size: 25px;
+}
+
+.instructor_rating{
+    /* border: 2px solid blue; */
+    height: 100px;
+}
+
+.instructor_rating>ul>li{
+    font-size: 15px;
+    line-height: 15px;
+    margin: 14px 7px;
+}
+
+.instructor_details{
+    font-size: 14.5px;
+    line-height: 19px;
+    margin-bottom: 40px;
+}
+
+
+/* 4.3  | 1K Reviews */
+.reviews_heading{
+    font-size: 25px;
+}
+
+.reviews_heading>img{
+    width: 80px;
+    height: 20px;
+}
+
+
+.reviews_card{
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.reviews_card_heading>h3{
+    font-size: 18px;
+}
+
+.reviews_card_heading>h5>img{
+    width: 56px;
+    height: 14px;
+}
+
+.reviews_card_heading>h5{
+    font-size: 14px;
+}
+
+.reviews_card_content{
+    font-size: 14.5px;
+}
+
+/* Explore Our Courses... */
+
+.explore_heading{
+    font-size: 24px;
+}
+
+.explore_cards{
+    height: auto;
+}
+
+.explore_card_text>h4{
+    font-size: 12px;
+    margin-bottom: -4px;
+}
+
+.explore_card_text>p>img{
+    width: 40px;
+    height: 10px;
+    margin: 0px 0px;
+}
+
+.explore_card_text>p{
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+
+.explore_card_text>h5{
+    margin-top: 0px;
+    font-size: 15px;
+}

@@ -76,10 +76,16 @@
     margin-left: 20px;
     /* float: right; */
     position:sticky;
-    top: 50px;
+    top: 40px;
     right: 117px; 
     bottom: 20px;
     z-index: 10000;
+    background-color: white;
+}
+
+/* Initial Boundary */
+.card{
+    margin-top: 50px;
 }
 
 
