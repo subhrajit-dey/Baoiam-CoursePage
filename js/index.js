@@ -28,7 +28,7 @@ let tagline_selector = document.querySelector('.tagline_selector');
 let rating_selector = document.querySelector('.rating_selector');
 let created_by_selector = document.querySelector('.created_by_selector');
 let description_selector = document.querySelector('.description_selector');
-let x = 40;
+let x = 440;
 console.log(header_selector);
 window.addEventListener('scroll', ()=>{
     header_selector.classList.toggle("sticky", window.scrollY>x);
